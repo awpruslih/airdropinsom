@@ -40,11 +40,23 @@
             <a href="#" class="text-xl font-extrabold text-cyan-400 tracking-wider flex items-center gap-2 neon-text-glow">
                 <i class="fas fa-cubes-stacked text-lg animate-pulse"></i> AIRDROP<span class="text-white font-medium">INSOM</span>
             </a>
-            <div class="flex space-x-6 text-sm md:text-base font-medium">
-                <a href="#airdrops" class="text-cyan-400 border-b-2 border-cyan-400 pb-1 transition duration-300">Airdrop</a>
+            <div class="flex items-center space-x-6 text-sm md:text-base font-medium">
                 <a href="#kamus-airdrop" class="text-slate-400 hover:text-cyan-400 transition duration-300">Penjelasan</a>
                 <a href="#guides" class="text-slate-400 hover:text-cyan-400 transition duration-300">Tutorial</a>
                 <a href="#socials" class="text-slate-400 hover:text-cyan-400 transition duration-300">Komunitas</a>
+                
+                <!-- Garis Pembatas Vertikal antara menu dan ikon sosial media -->
+                <span class="h-4 w-[1px] bg-slate-800 hidden sm:block"></span>
+                
+                <!-- Ikon Sosial Media Langsung di Navbar Atas -->
+                <div class="hidden sm:flex items-center space-x-4 text-base">
+                    <a href="https://t.me/Airdropinsom" target="_blank" class="text-slate-400 hover:text-[#0088cc] transition duration-300" title="Telegram Channel">
+                        <i class="fab fa-telegram-plane"></i>
+                    </a>
+                    <a href="https://x.com/awpruslihh" target="_blank" class="text-slate-400 hover:text-white transition duration-300" title="Twitter / X">
+                        <i class="fab fa-x-twitter"></i>
+                    </a>
+                </div>
             </div>
         </div>
     </nav>
@@ -56,7 +68,7 @@
         <div class="absolute top-1/4 right-1/4 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl pointer-events-none"></div>
         <div class="absolute bottom-1/4 left-1/4 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl pointer-events-none"></div>
 
-        <div class="relative max-w-6xl mx-auto px-4 w-full z-20 flex grid md:grid-cols-12 gap-8 items-center">
+        <div class="relative max-w-6xl mx-auto px-4 w-full z-20 grid md:grid-cols-12 gap-8 items-center">
             
             <!-- Box Content Kiri (Glassmorphism Modern) -->
             <div class="md:col-span-7 bg-slate-950/40 p-6 md:p-8 rounded-3xl border border-slate-700/40 backdrop-blur-xl text-left shadow-2xl neon-glow-blue">
@@ -76,17 +88,30 @@
                     Transformasikan waktu terjagamu menjadi nilai riil. Di sini gua akan pandu cara garap airdrop paling alpha dengan probabilitas cuan tinggi. Bergabunglah dengan sirkel.
                 </p>
                 
-                <!-- Buttons Container yang Rapi & Konsisten -->
+                <!-- Buttons Container yang Dioptimalkan untuk Promosi Telegram -->
                 <div class="flex flex-wrap gap-3">
-                    <a href="#airdrops" class="bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-slate-950 font-bold text-xs px-5 py-3 rounded-xl transition duration-300 transform hover:-translate-y-0.5 text-center flex items-center justify-center gap-2 shadow-lg shadow-cyan-500/20">
-                        Lihat Airdrop Aktif <i class="fas fa-paper-plane text-xs"></i>
+                    <!-- Tombol Telegram Utama: Paling mencolok & cerah -->
+                    <a href="https://t.me/Airdropinsom" target="_blank" class="bg-[#0088cc] hover:bg-[#0077b5] text-white font-bold text-xs px-6 py-3.5 rounded-xl transition duration-300 transform hover:-translate-y-0.5 text-center flex items-center justify-center gap-2 shadow-lg shadow-blue-500/20">
+                        <i class="fab fa-telegram-plane text-sm"></i> Gabung Telegram Alpha 🚀
                     </a>
-                    <a href="#kamus-airdrop" class="bg-slate-900/60 hover:bg-slate-800/80 text-cyan-300 font-semibold text-xs px-5 py-3 rounded-xl transition duration-300 border border-slate-700/60 backdrop-blur-sm text-center flex items-center justify-center gap-2">
+                    
+                    <!-- Tombol Panduan Diturunkan Prioritasnya (Menjadi Outline Button) -->
+                    <a href="#kamus-airdrop" class="bg-slate-900/40 hover:bg-slate-800/60 text-slate-300 hover:text-white font-semibold text-xs px-5 py-3.5 rounded-xl transition duration-300 border border-slate-700/50 backdrop-blur-sm text-center flex items-center justify-center gap-2">
                         <i class="fas fa-lightbulb text-xs text-amber-400"></i> Apa itu Airdrop?
                     </a>
-                    <a href="#socials" class="bg-slate-900/60 hover:bg-slate-800/80 text-white font-semibold text-xs px-5 py-3 rounded-xl transition duration-300 border border-slate-700/60 backdrop-blur-sm text-center flex items-center justify-center gap-2">
-                        <i class="fas fa-users text-xs text-purple-400"></i> Gabung Komunitas
+                    
+                    <a href="#guides" class="bg-slate-900/40 hover:bg-slate-800/60 text-slate-300 hover:text-white font-semibold text-xs px-5 py-3.5 rounded-xl transition duration-300 border border-slate-700/50 backdrop-blur-sm text-center flex items-center justify-center gap-2">
+                        <i class="fas fa-book-open text-xs text-cyan-400"></i> Lihat Tutorial
                     </a>
+                </div>
+
+                <!-- Efek FOMO / Social Proof Baru di bawah tombol -->
+                <div class="mt-4 flex items-center gap-2 text-xs text-slate-400">
+                    <span class="flex h-2 w-2 relative">
+                        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                        <span class="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+                    </span>
+                    <span>Bergabunglah dengan ribuan <span class="text-cyan-400 font-semibold">Airdrop Hunter</span> lainnya di dalam sirkel!</span>
                 </div>
             </div>
 
@@ -95,48 +120,8 @@
         </div>
     </header>
 
-    <!-- Section Airdrop -->
-    <section id="airdrops" class="max-w-6xl mx-auto px-4 py-20 border-t border-slate-900">
-        <div class="mb-12">
-            <h2 class="text-2xl md:text-3xl font-extrabold text-white mb-2 flex items-center gap-2">
-                <span class="text-orange-500">🔥</span> Airdrop & Testnet Unggulan
-            </h2>
-            <p class="text-slate-400 text-sm md:text-base">Daftar proyek tervalid yang sedang berjalan dan wajib Anda garap hari ini.</p>
-        </div>
-
-        <div class="grid md:grid-cols-2 gap-6">
-            <div class="bg-slate-900/40 p-6 rounded-2xl border border-slate-800 hover:border-cyan-500/40 transition duration-300 backdrop-blur-sm flex flex-col justify-between group">
-                <div>
-                    <div class="flex justify-between items-start mb-4">
-                        <span class="bg-emerald-500/10 text-emerald-400 text-xs font-semibold px-2.5 py-1 rounded-lg border border-emerald-500/20">Mainnet Confirmed</span>
-                        <span class="text-xs text-slate-500 font-medium">Estimasi: Q3 2026</span>
-                    </div>
-                    <h3 class="text-xl font-bold text-white mb-2 group-hover:text-cyan-400 transition">Contoh Proyek Blockchain L1</h3>
-                    <p class="text-slate-400 text-sm mb-5 leading-relaxed">Proyek skalabilitas blockchain baru dengan pendanaan besar. Tugas meliputi transaksi harian dan staking.</p>
-                </div>
-                <a href="#guides" class="inline-flex items-center text-sm text-cyan-400 font-semibold hover:text-cyan-300 transition">
-                    Lihat Tutorial Lengkap <i class="fas fa-arrow-right ml-1.5 text-xs transition transform group-hover:translate-x-1"></i>
-                </a>
-            </div>
-
-            <div class="bg-slate-900/40 p-6 rounded-2xl border border-slate-800 hover:border-cyan-500/40 transition duration-300 backdrop-blur-sm flex flex-col justify-between group">
-                <div>
-                    <div class="flex justify-between items-start mb-4">
-                        <span class="bg-amber-500/10 text-amber-400 text-xs font-semibold px-2.5 py-1 rounded-lg border border-amber-500/20">Incentivized Testnet</span>
-                        <span class="text-xs text-slate-500 font-medium">Estimasi: Q4 2026</span>
-                    </div>
-                    <h3 class="text-xl font-bold text-white mb-2 group-hover:text-cyan-400 transition">Proyek DePIN & AI</h3>
-                    <p class="text-slate-400 text-sm mb-5 leading-relaxed">Menjalankan node ringan atau berkontribusi pada jaringan AI terdesentralisasi. Sangat potensial.</p>
-                </div>
-                <a href="#guides" class="inline-flex items-center text-sm text-cyan-400 font-semibold hover:text-cyan-300 transition">
-                    Lihat Tutorial Lengkap <i class="fas fa-arrow-right ml-1.5 text-xs transition transform group-hover:translate-x-1"></i>
-                </a>
-            </div>
-        </div>
-    </section>
-
     <!-- Section Penjelasan & Kamus -->
-    <section id="kamus-airdrop" class="max-w-6xl mx-auto px-4 py-20 border-t border-slate-900">
+    <section id="kamus-airdrop" class="max-w-6xl mx-auto px-4 py-20 border-t border-slate-900/80">
         <div class="mb-12 text-center">
             <h2 class="text-3xl font-extrabold text-white mb-3 flex items-center justify-center gap-2">
                 <i class="fas fa-book-bookmark text-cyan-400 text-2xl"></i> Panduan & Penjelasan Lengkap Airdrop
@@ -154,7 +139,7 @@
                     <p class="text-slate-300 text-sm leading-relaxed">
                         Menurut saya pribadi, airdrop adalah sebuah acara event berhadiah token gratis dengan mengerjakan tugas social media. 
                         Developer meminta kita untuk memfollow semua social media nya untuk mendapatkan token tersebut. 
-                        Selain bertujuan untuk mendapatkan token, developer membuat event tersebut untuk menarik investor dan mencari komunitas supaya project tersebut bisa terkenal di kalangan banyak orang.
+                        Selain bertujuan untuk mendapatkan token, developer membuat event tersebut untuk menarik investor and mencari komunitas supaya project tersebut bisa terkenal di kalangan banyak orang.
                     </p>
                 </div>
 
@@ -310,7 +295,7 @@
     </section>
 
     <!-- Section Tutorial -->
-    <section id="guides" class="max-w-6xl mx-auto px-4 py-20 border-t border-slate-900">
+    <section id="guides" class="max-w-6xl mx-auto px-4 py-20 border-t border-slate-900/80">
         <div class="mb-12 text-center">
             <h2 class="text-2xl md:text-3xl font-extrabold text-white mb-2">📚 Panduan Langkah demi Langkah</h2>
             <p class="text-slate-400 text-sm md:text-base">Ikuti tutorial ini agar Anda tidak salah langkah saat melakukan interaksi on-chain.</p>
@@ -342,8 +327,7 @@
     </section>
 
     <!-- Section Socials / Komunitas -->
-<!-- Section Socials / Komunitas -->
-    <section id="socials" class="max-w-4xl mx-auto px-4 py-24 text-center border-t border-slate-900">
+    <section id="socials" class="max-w-4xl mx-auto px-4 py-24 text-center border-t border-slate-900/80">
         <h2 class="text-3xl font-extrabold text-white mb-4 tracking-tight">Mari Bangun Komunitas Bersama</h2>
         <p class="text-slate-400 max-w-md mx-auto mb-10 text-sm md:text-base leading-relaxed">
             Dapatkan update sinyal kilat, info airdrop mendadak, rilis testnet alpha, dan ruang diskusi interaktif langsung di saluran sosial media kami.
